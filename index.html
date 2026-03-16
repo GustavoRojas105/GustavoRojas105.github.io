@@ -11,6 +11,7 @@
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/main.css?ver=1.1.0" rel="stylesheet">
     <noscript>
+      <script src="scripts/dark-mode.js"></script>
       <style type="text/css">
         [data-aos] {
             opacity: 1 !important;
@@ -29,11 +30,17 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
+                <li class="nav-item">
+                  <button id="dark-mode-toggle" class="nav-link btn btn-link" style="cursor: pointer;">
+                    <i class="fa fa-moon-o"></i> <span class="d-lg-none">Modo Oscuro</span>
+                  </button>
+                </li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Sobre mi</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Habilidades</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experiencia</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Educación</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#courses">Cursos</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Proyectos</a></li>
               </ul>
             </div>
           </div>
@@ -398,7 +405,7 @@
           <div class="card-body">
             <div class="h5">Capacítate para el empleo</div>
             <p class="category">"Técnico en instalación y reparación de equipo de cómputo"</p>
-            <p><a href="pdf/1 2019 dic 7e35c37a-96fc-4445-a7de-3eb659538a84_certificado.pf" target="_blank" rel="noopener noreferrer">Documento</a>.</p>
+            <p><a href="pdf/1 2019 dic 7e35c37a-96fc-4445-a7de-3eb659538a84_certificado.pdf" target="_blank" rel="noopener noreferrer">Documento</a>.</p>
           </div>
         </div>
       </div>
@@ -596,7 +603,63 @@
   </div>
 </div>
 
+<div class="section" id="projects">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Proyectos Destacados</div>
+    
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right">
+          <div class="card-body cc-education-header">
+            <div class="h5">Control y Filtrado</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left">
+          <div class="card-body">
+            <div class="h5">Implementación de Filtro de Kalman en Sistemas Embebidos</div>
+            <p>Desarrollo de un algoritmo de filtrado estocástico sobre arquitectura <b>Arduino</b> para el procesamiento de datos de RPM y trayectoria. El proyecto logró optimizar la precisión de los sensores de ometría mediante la reducción de ruido en tiempo real.</p>
+            <p><strong>Tech Stack:</strong> C++, Arduino, Procesamiento de Señales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right">
+          <div class="card-body cc-education-header">
+            <div class="h5">IoT & Web</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left">
+          <div class="card-body">
+            <div class="h5">Dashboard de Monitoreo para Análisis de Datos</div>
+            <p>Diseño de una plataforma web integrada para el análisis de datos provenientes de nodos <b>ESP32</b>. El sistema permite la visualización de métricas críticas en tiempo real, utilizando <b>MySQL</b> para la persistencia de datos y una interfaz optimizada para la toma de decisiones.</p>
+            <p><strong>Tech Stack:</strong> HTML5/CSS3, JavaScript, PHP, MySQL, ESP32.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right">
+          <div class="card-body cc-education-header">
+            <div class="h5">Robótica</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left">
+          <div class="card-body">
+            <div class="h5">Simulación de Cinemática Inversa para Brazos Robóticos</div>
+            <p>Cálculo y simulación de trayectorias mediante modelos matemáticos de cinemática directa e inversa. Aplicación de conceptos de control <b>PID</b> para la estabilización de movimientos en articulaciones industriales.</p>
+            <p><strong>Tech Stack:</strong> Python, NumPy, Control Theory.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
 
